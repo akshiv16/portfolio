@@ -1,0 +1,203 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    margin: 80px 170px;
+    gap: 80px;
+
+}
+.contact-title{
+    position: relative;
+}
+.contact-title h1{
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+}
+.contact-title img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+
+}
+.contact-section{
+    display: flex;
+    gap: 150px;
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+.contact-left h1{
+    font-size: 80px;
+    font-weight: 700;
+    background: linear-gradient(270deg ,#df8908 80%,#b415ff 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.contact-left p{
+    max-width: 550px;
+    color: #d8d8d8;
+    font-size: 20px;
+    line-height: 35px;
+}
+.contact-details{
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    gap: 30px;
+    color: #d8d8d8;
+
+
+}
+.contact-detail{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.contact-right{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+
+}
+.contact-right label{
+    color: #d8d8d8;
+    font-size: 22px;
+    font-weight: 500;
+}
+.contact-right input{
+    border: none;
+    width: 700px;
+     height: 78px;
+     padding-left: 20px;
+     border-radius: 4px;
+     background: #32323c;
+     color: #a0a0a0;
+     font-family: Outfit;
+     font-size: 20px;
+
+}
+.contact-right textarea{
+    width: 650px;
+    border: none;
+    padding: 25px;
+    border-radius: 4px;
+    background: #32323c;
+    color: #a0a0a0;
+    font-family: Outfit;
+    font-size: 20px;
+}
+.contact-submit{
+    border: none;
+    color: white;
+    border-radius: 50px;
+    background: linear-gradient(264deg ,#df8908 -5.09%,#b415ff 100%);
+    font-size: 22px;
+    padding: 20px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+.contact-submit:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.links{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20%;
+    margin-right: 45%;
+    padding-top: 10%;
+}
+.linked{
+    height: 6vh;
+    width: 6vh;
+    background-color: white;
+    background: linear-gradient(264deg ,#df8908 -5.09%,#b415ff 100%);
+    border-radius: 10%;
+}
+.linked:hover{
+    transform: scale(1.12);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.github{
+    height: 6vh;
+    width: 6vh;
+    background-color: white;
+    background: linear-gradient(264deg ,#df8908 -5.09%,#b415ff 100%);
+    border-radius: 50%;
+}
+.github:hover{
+    transform: scale(1.12);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.insta{
+    height: 6vh;
+    width: 6vh;
+    background-color: white;
+    background: linear-gradient(264deg ,#df8908 -5.09%,#b415ff 100%);
+    border-radius: 20%;
+}
+.insta:hover{
+    transform: scale(1.12);
+    transition: 0.5s;
+    cursor: pointer;
+}
+@media(max-width:768px){
+    .contact{
+        gap: 50px;
+        margin: 50px 70px;
+        align-items: start;
+    }
+    .contact-title h1{
+        padding: 0;
+        font-size: 50px;
+        font-weight: 600;
+    }
+    .contact-title img{
+        width: 130px;
+        margin-right: -20px;
+
+    }
+    .contact-section{
+        flex-direction: column;
+    }
+    .contact-left h1{
+        font-size: 54px;
+    }
+    .contact-left p{
+        font-size: 18px;
+    }
+    .contact-detail{
+        gap: 20px;
+    }
+    .contact-detail img{
+        width: 25px;
+
+    }
+    .contact-right label{
+        font-size: 20px;
+    }
+    .contact-right input{
+        width: 100%;
+        font-size: 20px;
+    }
+    .contact-right textarea{
+        width: 95%;
+        font-size: 20px;
+    }
+    .contact-submit{
+        font-size: 20px;
+        padding: 15px 40px;
+    }
+}
