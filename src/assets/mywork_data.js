@@ -1,8 +1,8 @@
 
 import cryptoplace from '../assets/cryptoplaace.png'
 import password from '../assets/password.png'
-import tictactoe from '../assets/tictactoe.png'
-import weather from '../assets/weather.png'
+import tictactoe from '../assets/netflix.png'
+import weather from '../assets/ordermaadi.png'
 import code from '../assets/code.png'
 import clone from '../assets/clone.png'
 

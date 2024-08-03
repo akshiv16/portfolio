@@ -24,7 +24,7 @@ const About = () => {
 </div>
 <div className="about-skills">
     <div className="about-skill">
-        <p>HTML,CSS </p><hr style={{width:"80%"}} />
+        <p>HTML,CSS </p><hr style={{width:"90%"}} />
     </div>
     <div className="about-skill">
         <p>Javascript</p><hr style={{width:"70%"}} />
@@ -35,7 +35,7 @@ const About = () => {
         
     </div>
     <div className="about-skill">
-        <p>React JS</p><hr style={{width:"80%"}} />
+        <p>React </p><hr style={{width:"90%"}} />
         
     </div>
     <div className="about-skill">
@@ -47,11 +47,11 @@ const About = () => {
         
     </div>
     <div className="about-skill">
-        <p>NodeJS </p><hr style={{width:"40%"}} />
+        <p>NodeJS </p><hr style={{width:"60%"}} />
         
     </div>
     <div className="about-skill">
-        <p>Express </p><hr style={{width:"50%"}} />
+        <p>ExpressJS </p><hr style={{width:"70%"}} />
         
     </div>
 </div>
@@ -60,7 +60,7 @@ const About = () => {
       <div className="about-achievements">
         <div className="about-achievement">
             <h1>
-250+
+350+
             </h1>
             <p>
 DSA Problems
@@ -73,7 +73,7 @@ Competitive
 Programming
             </h1>
             <p>
-CodeChef: 2* (1532), Codeforces: Newbie, LeetCode: 200+Problems
+LeetCode: Among Top 29.98% users globally 
             </p>
           </div>
             <div className="about-achievement">
@@ -92,7 +92,7 @@ MoodIndigo
          Contigent Leader, MI Member
             </p>
             </div>
-        
+          
       </div>
     </div>
   )

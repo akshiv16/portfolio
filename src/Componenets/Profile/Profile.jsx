@@ -6,7 +6,7 @@ const Profile = () => {
   return (
     <div id='home'className='hero'>
         <img src={image} alt="" />
-        <h1> <span>I'm Akshiv Bansal</span>, frontend Developer and an Engineering Student </h1>
+        <h1> <span>I'm Akshiv Bansal</span>, MERN Developer and an Engineering Student </h1>
         <p> I have good interest in finance, business, and marketing, coupled with proficiency in MERN Stack development and competitive programming</p>
         <div className="heroaction">
         <div className="heroconnect">
@@ -20,7 +20,7 @@ const Profile = () => {
         </div>
         
             <div className="heroresume">
-            <a href="" target="_blank" rel="noopener noreferrer">
+            <a href="https://drive.google.com/file/d/1Fc6vb_5QkND3kMzlwvTbfpY8CMbZLGFu/view?usp=sharing" target="_blank" rel="noopener noreferrer">
             My Resume
           </a>
                 

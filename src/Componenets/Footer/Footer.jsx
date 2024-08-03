@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="footer-top-left">
             <img src={logo} alt="" className='LOGO'/>
            
-            <p>I'm Akshiv Bansal, frontend Developer and an Engineering Student having a good interest in MERN Stack development and competitive programming.</p>
+            <p>I'm Akshiv Bansal, an Engineering Student having a good interest in MERN Stack development and competitive programming.</p>
             </div>
             <div className="footer-top-right">
                 <div className="footer-email">
